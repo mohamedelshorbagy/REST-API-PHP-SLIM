@@ -20,7 +20,7 @@ Data needed for Insertion of members :
 
 
 # Example
-'''JSON
+```JSON
 {
     "username" : "Mohamed",
     "pass":"Mohamed",
@@ -31,7 +31,7 @@ Data needed for Insertion of members :
     "healthCondition":"Good"
    
 }
-'''
+```
 
 ---------------------------------------------------------------------------------------------------
 
@@ -43,12 +43,12 @@ Data needed for Insertion of Posts :
 2 - user_id
 
 # Example 
-'''JSON
+```JSON
 {
     "post":"This is a Test Post",
     "user_id" : "150"
 }
-'''
+```
 
 # Insert Comments For Posts 
 http://localhost/index.php/insertComment
@@ -59,13 +59,13 @@ Data needed for Insertion of Comments :
 3- comment
 
 # Example 
-'''JSON
+```JSON
 {
     "post_id":"2",
     "user_id" : "150",
     "comment":"This is A test Comment for a Post"
 }
-'''
+```
 
 // --------------------------------------------------------------------------------------- //
 
