@@ -9,7 +9,8 @@
 
 http://localhost/index.php/insertMember
 You need to parse Data with Post Method in JSON FORM
-Data needed for Insertion of members : 
+Data needed for Insertion of members :
+
 1. username 
 2. pass
 3. email 
@@ -40,6 +41,7 @@ Data needed for Insertion of members :
 http://localhost/index.php/insertPost
 You need to parse Data with Post Method in JSON FORM
 Data needed for Insertion of Posts :
+
 1. post
 2. user_id
 
@@ -55,6 +57,7 @@ Data needed for Insertion of Posts :
 http://localhost/index.php/insertComment
 You need to parse Data with Post Method in JSON FORM
 Data needed for Insertion of Comments :
+
 1. post_id
 2. user_id 
 3. comment
@@ -79,6 +82,7 @@ http://localhost/index.php/fetchAllData
 # Fetch All Posts From DB 
 http://localhost/index.php/getPosts
 Data inside the retrive JSON : 
+
 1. c_id ==> Post ID 
 2. comment ==> Post Data 
 3. user_id ==> User ID 
@@ -91,6 +95,7 @@ Data inside the retrive JSON :
 # Fetch All Comments From DB 
 http://localhost/index.php/getComments
 Data inside the retrive JSON : 
+
 1. comm_id ==> Comment ID 
 2. post_id ==> Post ID 
 3. user_id ==> User ID 
