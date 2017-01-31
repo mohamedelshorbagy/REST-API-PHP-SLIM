@@ -10,13 +10,13 @@
 http://localhost/index.php/insertMember
 You need to parse Data with Post Method in JSON FORM
 Data needed for Insertion of members : 
-1 - username 
-2 - pass
-3 - email 
-4 - phone 
-5 - Blood
-6 - birthDate
-7 - healthCondition
+1. username 
+2. pass
+3. email 
+4. phone 
+5. Blood
+6. birthDate
+7. healthCondition
 
 
 # Example
@@ -39,8 +39,8 @@ Data needed for Insertion of members :
 http://localhost/index.php/insertPost
 You need to parse Data with Post Method in JSON FORM
 Data needed for Insertion of Posts :
-1 - post
-2 - user_id
+1. post
+2. user_id
 
 # Example 
 ```JSON
@@ -54,9 +54,9 @@ Data needed for Insertion of Posts :
 http://localhost/index.php/insertComment
 You need to parse Data with Post Method in JSON FORM
 Data needed for Insertion of Comments :
-1- post_id
-2- user_id 
-3- comment
+1. post_id
+2. user_id 
+3. comment
 
 # Example 
 ```JSON
@@ -78,11 +78,11 @@ http://localhost/index.php/fetchAllData
 # Fetch All Posts From DB 
 http://localhost/index.php/getPosts
 Data inside the retrive JSON : 
-1 - c_id ==> Post ID 
-2 - comment ==> Post Data 
-3 - user_id ==> User ID 
-4 - date ==> Date of Posting the Post 
-5 - user_name ==> User Name 
+1. c_id ==> Post ID 
+2. comment ==> Post Data 
+3. user_id ==> User ID 
+4. date ==> Date of Posting the Post 
+5. user_name ==> User Name 
 
 
 
@@ -90,12 +90,12 @@ Data inside the retrive JSON :
 # Fetch All Comments From DB 
 http://localhost/index.php/getComments
 Data inside the retrive JSON : 
-1 - comm_id ==> Comment ID 
-2 - post_id ==> Post ID 
-3 - user_id ==> User ID 
-4 - date ==> Date of Posting the Comment
-5 - Com ==> Comment Data
-6 - user_name ==> User Name 
+1. comm_id ==> Comment ID 
+2. post_id ==> Post ID 
+3. user_id ==> User ID 
+4. date ==> Date of Posting the Comment
+5. Com ==> Comment Data
+6. user_name ==> User Name 
 
 
 // --------------------------------------------------------------------------------------- //
