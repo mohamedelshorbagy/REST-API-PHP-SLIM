@@ -25,7 +25,7 @@ Data needed for Insertion of members :
     "username" : "Mohamed",
     "pass":"Mohamed",
     "email":"Mohamed@mohamed.com",
-    "phone"":"01098653265", // Accepet Only 11 Numbers 
+    "phone":"01098653265", 
     "Blood":"A+",
     "birthDate":"28-5-2016",
     "healthCondition":"Good"
