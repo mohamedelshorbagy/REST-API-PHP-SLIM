@@ -7,7 +7,7 @@
 
 # Insert Members:
 
-http://YourIPAddress/index.php/insertMember
+http://YourIPAddress/index.php/insertMember   <br /> <br />
 
 
 You need to parse Data with Post Method in JSON FORM
@@ -40,7 +40,7 @@ Data needed for Insertion of members :
 ---------------------------------------------------------------------------------------------------
 
 # Insert Posts
-http://YourIPAddress/index.php/insertPost
+http://YourIPAddress/index.php/insertPost   <br /> <br />
 You need to parse Data with Post Method in JSON FORM
 Data needed for Insertion of Posts :
 
@@ -56,7 +56,7 @@ Data needed for Insertion of Posts :
 ```
 
 # Insert Comments For Posts 
-http://YourIPAddress/index.php/insertComment
+http://YourIPAddress/index.php/insertComment     <br /> <br />
 You need to parse Data with Post Method in JSON FORM
 Data needed for Insertion of Comments :
 
@@ -78,11 +78,11 @@ Data needed for Insertion of Comments :
 # Fetching Data From Database 
 
 # Fetch All Data OF Members 
-http://YourIPAddress/index.php/fetchAllData
+http://YourIPAddress/index.php/fetchAllData   <br /> <br />
 
 
 # Fetch All Posts From DB 
-http://YourIPAddress/index.php/getPosts
+http://YourIPAddress/index.php/getPosts   <br /> <br />
 Data inside the retrive JSON : 
 
 1. c_id ==> Post ID 
@@ -95,7 +95,7 @@ Data inside the retrive JSON :
 
 
 # Fetch All Comments From DB 
-http://YourIPAddress/index.php/getComments
+http://YourIPAddress/index.php/getComments   <br /> <br />
 Data inside the retrive JSON : 
 
 1. comm_id ==> Comment ID 
@@ -111,25 +111,25 @@ Data inside the retrive JSON :
 # Delete Section 
 
 # Delete Members
-http://YourIPAddress/index.php/member/delete/{id}
+http://YourIPAddress/index.php/member/delete/{id}    <br /> <br />
 
 You Need instead of {id} Parse A NUmber represents the UserID 
 
-Example : http://YourIPAddress/index.php/member/delete/120
+Example : http://YourIPAddress/index.php/member/delete/120  <br /> <br />
 => 5 -> Represents the Member ID
 # Delete Posts
 
-http://YourIPAddress/index.php/post/delete/{id}
+http://YourIPAddress/index.php/post/delete/{id}   <br /> <br />
 You Need instead of {id} Parse A NUmber represents the PostID 
 
-Example : http://YourIPAddress/index.php/post/delete/5
+Example : http://YourIPAddress/index.php/post/delete/5   <br /> <br />
 => 5 -> Represents the Post ID
 
 # Delete Comments
-http://YourIPAddress/index.php/comment/delete/{id}
+http://YourIPAddress/index.php/comment/delete/{id}   <br /> <br />
 You Need instead of {id} Parse A NUmber represents the CommentID 
 
-Example : http://YourIPAddress/index.php/comment/delete/5
+Example : http://YourIPAddress/index.php/comment/delete/5    <br /> <br />
 
 => 5 -> Represents the Comment ID
 
