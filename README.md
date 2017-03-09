@@ -7,7 +7,7 @@
 
 # Insert Members:
 
-http://localhost/index.php/insertMember
+http://YourIPAddress/index.php/insertMember
 You need to parse Data with Post Method in JSON FORM
 Data needed for Insertion of members :
 
@@ -38,7 +38,7 @@ Data needed for Insertion of members :
 ---------------------------------------------------------------------------------------------------
 
 # Insert Posts
-http://localhost/index.php/insertPost
+http://YourIPAddress/index.php/insertPost
 You need to parse Data with Post Method in JSON FORM
 Data needed for Insertion of Posts :
 
@@ -54,7 +54,7 @@ Data needed for Insertion of Posts :
 ```
 
 # Insert Comments For Posts 
-http://localhost/index.php/insertComment
+http://YourIPAddress/index.php/insertComment
 You need to parse Data with Post Method in JSON FORM
 Data needed for Insertion of Comments :
 
@@ -76,11 +76,11 @@ Data needed for Insertion of Comments :
 # Fetching Data From Database 
 
 # Fetch All Data OF Members 
-http://localhost/index.php/fetchAllData
+http://YourIPAddress/index.php/fetchAllData
 
 
 # Fetch All Posts From DB 
-http://localhost/index.php/getPosts
+http://YourIPAddress/index.php/getPosts
 Data inside the retrive JSON : 
 
 1. c_id ==> Post ID 
@@ -93,7 +93,7 @@ Data inside the retrive JSON :
 
 
 # Fetch All Comments From DB 
-http://localhost/index.php/getComments
+http://YourIPAddress/index.php/getComments
 Data inside the retrive JSON : 
 
 1. comm_id ==> Comment ID 
@@ -109,28 +109,37 @@ Data inside the retrive JSON :
 # Delete Section 
 
 # Delete Members
-http://localhost/index.php/member/delete/{id}
+http://YourIPAddress/index.php/member/delete/{id}
 
 You Need instead of {id} Parse A NUmber represents the UserID 
 
-Example : http://localhost/index.php/member/delete/120
+Example : http://YourIPAddress/index.php/member/delete/120
 => 5 -> Represents the Member ID
 # Delete Posts
 
-http://localhost/index.php/post/delete/{id}
+http://YourIPAddress/index.php/post/delete/{id}
 You Need instead of {id} Parse A NUmber represents the PostID 
 
-Example : http://localhost/index.php/post/delete/5
+Example : http://YourIPAddress/index.php/post/delete/5
 => 5 -> Represents the Post ID
 
 # Delete Comments
-http://localhost/index.php/comment/delete/{id}
+http://YourIPAddress/index.php/comment/delete/{id}
 You Need instead of {id} Parse A NUmber represents the CommentID 
 
-Example : http://localhost/index.php/comment/delete/5
+Example : http://YourIPAddress/index.php/comment/delete/5
 
 => 5 -> Represents the Comment ID
 
+
+
+# Note : 
+
+-> You can Get Your IP ADDRESS From Command Prompt with Command : 
+$ ipconfig 
+
+You will Find You IP ADDRESS Like this : 
+# 192.168.1.6
 
 
 
