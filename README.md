@@ -8,6 +8,8 @@
 # Insert Members:
 
 http://YourIPAddress/index.php/insertMember
+
+
 You need to parse Data with Post Method in JSON FORM
 Data needed for Insertion of members :
 
